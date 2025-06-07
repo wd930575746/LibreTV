@@ -1,3 +1,18 @@
+// API 配置适配 okzyw 自定义接口
+const API_CONFIG = {
+    search: {
+        path: '/api.php/provide/vod/?ac=videolist&wd=',
+        headers: {
+            'User-Agent': 'Mozilla/5.0'
+        }
+    },
+    detail: {
+        path: '/api.php/provide/vod/?ac=detail&id=',
+        headers: {
+            'User-Agent': 'Mozilla/5.0'
+        }
+    }
+};
 // 改进的API请求处理函数
 async function handleApiRequest(url) {
     const customApi = url.searchParams.get('customApi') || '';
