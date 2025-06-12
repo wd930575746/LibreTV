@@ -22,6 +22,48 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂资源',
+        detail: 'http://caiji.dyttzyapi.com', 
+    },
+    ruyi: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod',
+        name: '如意资源',
+    },
+    bfzy: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风资源',
+    },
+    tyyszy: {
+        api: 'https://tyyszy.com/api.php/provide/vod',
+        name: '天涯资源',
+    },
+    // xiaomaomi: {
+    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
+    //     name: '小猫咪资源',
+    // },
+    ffzy: {
+        api: 'http://ffzy5.tv/api.php/provide/vod',
+        name: '非凡影视',
+        detail: 'http://ffzy5.tv', 
+    },
+    heimuer: {
+        api: 'https://json.heimuer.xyz/api.php/provide/vod',
+        name: '黑木耳',
+        detail: 'https://heimuer.tv', 
+    },
+    zy360: {
+        api: 'https://360zy.com/api.php/provide/vod',
+        name: '360资源',
+    },
+    iqiyi: {
+        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+        name: 'iqiyi资源',
+    },
+    wolong: {
+        api: 'https://wolongzyw.com/api.php/provide/vod',
+        name: '卧龙资源',
     }, 
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
@@ -67,34 +109,6 @@ const API_SITES = {
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
-    },
-    mtzy: {
-        api: 'https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8',
-        name: '茅台资源'
-    },
-    jmzy: {
-        api: 'https://api.jmzy.com/api.php/provide/vod',
-        name: '金马资源网'
-    },
-    xingba: {
-        api: 'https://xingba111.com/api.php/provide/vod',
-        name: '杏吧资源'
-    },
-    xibao: {
-        api: 'https://www.xxibaozyw.com/api.php/provide/vod',
-        name: '细胞网'
-    },
-    aqiyi: {
-        api: 'https://iqiyizyapi.com/api.php/provide/vod',
-        name: '爱奇艺资源站'
-    },
-    xiaoji: {
-        api: 'https://api.xiaojizy.live/provide/vod',
-        name: '小鸡资源'
-    },
-    subo: {
-        api: 'https://subocaiji.com/api.php/provide/vod',
-        name: '速播资源'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
